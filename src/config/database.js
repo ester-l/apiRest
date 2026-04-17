@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
 const MONGO_URI =
-  'mongodb+srv://esterlimabar_db_user:3ydC45CgeKI3q9YO@cadastro.kmhwd8x.mongodb.net/cadastro?appName=cadastro';
+  'mongodb+srv://esterlimabar_db_user:j4vHtBUxk4aaNvs4@cluster0.3udlhsi.mongodb.net/Cadastro?appName=Cluster0';
 
 async function connectDatabase() {
   await mongoose.connect(MONGO_URI);

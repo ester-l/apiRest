@@ -18,4 +18,4 @@ const pessoaSchema = new mongoose.Schema(
   }
 );
 
-module.exports = mongoose.model('Pessoa', pessoaSchema, 'pessoas');
+module.exports = mongoose.model('Pessoas', pessoaSchema, 'pessoas');
